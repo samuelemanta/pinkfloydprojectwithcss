@@ -1,0 +1,19 @@
+/* body{background-color: black;} */
+h1{font-size: 90px;text-align: center;text-decoration: underline 2px;text-shadow: 1px 1px;}
+h2{font-size: 35px;}
+h3{font-size: 30px;}
+#conclusion{font-style: italic;text-decoration: underline 2px;}
+.class{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+*{font-size: 28px; letter-spacing: -1px;}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    gap: 10px;
+  }
+  .grid-item {
+    border: 1px #7b9fc0 solid;
+    text-align:center;
+    justify-content: center;
+  }
